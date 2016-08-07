@@ -1,15 +1,15 @@
 #include <iostream>
-#include "Sales_item.h"
+#include <string>
 using namespace std;
-int main(void)
+
+int main()
 {
-	Sales_item item1, item2;
-	cin >> item1 >> item2;
-	if (item1.isbn() == item2.isbn())
-		cout << item1 + item2 << endl;
-	else
-		cerr << "items must have same ISBN!" << endl;
-	cin.get();
-	cin.get();
+	string s = "Hello, world!!!";
+	string result;
+	for (char c : s)
+		if (!ispunct(c))
+			result += c;
+	cout << result;
+	system("pause");
 	return 0;
 }
