@@ -9,9 +9,11 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Note">
+      <UniqueIdentifier>{f7bc5950-f648-495a-884b-2088c327c922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Note\Chapter 3 Strings, Vectors, and Arrays">
+      <UniqueIdentifier>{cf1cc0fb-ee8d-4163-828e-12b761cdedad}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -26,5 +28,42 @@
     <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chapter 3 Strings, Vectors, and Arrays\3.2 Library string type.md">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </None>
+    <None Include="Chapter 3 Strings, Vectors, and Arrays\3.3 Library vector type.md">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </None>
+    <None Include="Chapter 3 Strings, Vectors, and Arrays\3.4 Introducing Iterators.md">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </None>
+    <None Include="3.5 Arrays.md">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\cctype_func.PNG">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </Image>
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\iterator_operations.PNG">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </Image>
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\iterator_operations_with_string_and_vector.PNG">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </Image>
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\string_operations.PNG">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </Image>
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\vecor_operation.PNG">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </Image>
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\vector_init.PNG">
+      <Filter>Note\Chapter 3 Strings, Vectors, and Arrays</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -147,6 +147,21 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3.5 Arrays.md" />
+    <None Include="Chapter 3 Strings, Vectors, and Arrays\3.2 Library string type.md" />
+    <None Include="Chapter 3 Strings, Vectors, and Arrays\3.3 Library vector type.md" />
+    <None Include="Chapter 3 Strings, Vectors, and Arrays\3.4 Introducing Iterators.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\cctype_func.PNG" />
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\iterator_operations.PNG" />
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\iterator_operations_with_string_and_vector.PNG" />
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\string_operations.PNG" />
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\vecor_operation.PNG" />
+    <Image Include="Chapter 3 Strings, Vectors, and Arrays\vector_init.PNG" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
