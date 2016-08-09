@@ -6,9 +6,11 @@ using namespace std;
 
 int main()
 {
-	int a[5] = { 1,2,3,4,5 };
-	vector<int> x(begin(a), end(a));
-	
+	int a[3][4];
+	int count = 0;
+	for (auto &row : a)
+		for (auto &col : row)
+			col = count++;
 	system("pause");
 	return 0;
 }
