@@ -6,6 +6,8 @@ using namespace std;
 
 int main()
 {
+	string s = "abc";
+	const char *c = s.c_str();
 	int a[5] = { 1,2,3,4,5 };
 	int *beg = begin(a);
 	int *pend = end(a);
